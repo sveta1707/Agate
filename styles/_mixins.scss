@@ -1,0 +1,43 @@
+@mixin section-with-background {
+    background-color: $bg-color;
+    padding: $section-space 0;
+    @media screen and (max-width: 1024px) {
+        $section-space: 80px;
+        padding: $section-space 0;
+    }
+    @media screen and (max-width: 768px) {
+        $section-space: 70px;
+        padding: $section-space 0;
+    }
+}
+
+@mixin flex-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin flex-centering {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin circle-maker ($size, $back-color) {
+    width: $size;
+    height: $size;
+    border-radius: 50%;
+    background-color: $back-color;
+}
+
+@mixin stiker-styles($content, $size, $back-color, $font-size, $text-color) {
+    content: $content;
+    @include circle-maker ($size, $back-color);
+    @include flex-centering;
+    font-size: $font-size;
+    font-weight: 600;
+    color: $text-color;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+}

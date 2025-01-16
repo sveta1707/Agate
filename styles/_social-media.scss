@@ -1,0 +1,30 @@
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin: 60px auto 0;
+    &__item {
+        @include circle-maker (50px, #fff);
+        font-size: 2.7rem;
+        color: $footer-color;
+        @include flex-centering;
+        transition: all .5s linear;
+        &:not(:last-child) {
+            margin-right: 40px;
+        }
+        &:hover {
+            transform: scale(1.5);
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .social-media {
+        margin: 45px auto 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .social-media {
+        margin: 35px auto 0;
+    }
+}

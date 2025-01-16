@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9dfda335ff.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Agate</title>
+</head>
+
+<body>
+    <div class="background">
+        <header class="header">
+            <a class="logo" href="#">Agate</a>
+            <nav class="navigation">
+                <a class="navigation__item" href="#about-us">О ресторане</a>
+                <a class="navigation__item" href="#menu">Меню</a>
+                <a class="navigation__item" href="#contacts">Контакты</a>
+            </nav>
+        </header>
+        <section class="banner" id="about-us">
+            <h1 class="banner-title">РЕСТОРАН АВТОРСКОЙ КУХНИ</h1>
+            <p class="banner__text">Легкая атмосфера, европейская и азиатская кухня</p>
+            <a class="button button--white" href="#contacts">Связаться с нами</a>
+        </section>
+    </div>
+
+    <main>
+        <section class="presentation">
+            <p class="presentation__text text">Мы понравимся вам своей легкой атмосферой, уровнем кухни и подачей блюд. Мы любим аристократичную простоту в интерьере, хорошую музыку и неповторимый ризотто нашего шефа, Максима Болова.</p>
+        </section>
+
+        <section class="main-page-gallery">
+            <div class="wrapper">
+                <div class="gallery-photo"><img src="images/interior1.jpg" alt="Фото интерьера"></div>
+                <div class="gallery-photo"><img src="images/bar_counter.jpg" alt="Фото блюда на барной стойке"></div>
+                <div class="gallery-photo"><img src="images/table.jpg" alt="Фото блюд на столе"></div>
+                <div class="gallery-photo"><img src="images/dish.jpg" alt="Фото блюда"></div>
+                <div class="gallery-photo"><img src="images/interior2.jpg" alt="Фото интерьера"></div>
+                <div class="gallery-photo"><img src="images/dessert.jpg" alt="Фото десерта"></div>
+            </div>
+        </section>
+
+        <section class="main-page-menu" id="menu">
+            <h3 class="section-title">Избранные блюда нашего меню</h3>
+            <p class="main-page-menu__addition addition">Осеннее меню от шеф-повара</p>
+            <div class="container">
+                <article class="menu-item menu-item--red-stiker">
+                    <div class="menu-item__picture">
+                        <img src="images/pumpkin_soup.jpg" alt="Фото тыквенного супа">
+                    </div>
+                    <div class="menu-item__info">
+                        <h4 class="menu-item__name">Тыквенный суп</h4>
+                        <p class="menu-item__description">Осенний тыквенный суп. В игредиентах тыква, шампиньоны, щепотка мускатного ореха.</p>
+                        <span class="menu-item__price" aria-label="Цена">1980р.</span>
+                    </div>
+                </article>
+                <article class="menu-item menu-item--green-stiker">
+                    <div class="menu-item__picture">
+                        <img src="images/parpadelle.jpg" alt="Фото парпаделле">
+                    </div>
+                    <div class="menu-item__info">
+                        <h4 class="menu-item__name">Парпаделле</h4>
+                        <p class="menu-item__description">Итальянская паста с богатым вкусом свеклы и томатным песто, подается с базиликом и горошком.</p>
+                        <span class="menu-item__price" aria-label="Цена">1400р.</span>
+                    </div>
+                </article>
+                <article class="menu-item menu-item--orange-stiker">
+                    <div class="menu-item__picture">
+                        <img src="images/lynch_salad.jpg" alt="Фото линч салата">
+                    </div>
+                    <div class="menu-item__info">
+                        <h4 class="menu-item__name">Линч салат</h4>
+                        <p class="menu-item__description">Питательный утренний салат - это просто белковая бомба для любителей фитнеса.</p>
+                        <span class="menu-item__price" aria-label="Цена">1300р.</span>
+                    </div>
+                </article>
+            </div>
+
+            <a class="button button--black" href="#">Посмотреть меню</a>
+        </section>
+
+        <section class="staff">
+            <div class="staff-photo"><img src="images/chef.png" alt="Фото шеф-повара"></div>
+            <h3 class="section-title">Максим Болов</h3>
+            <p class="staff__addition addition">Шеф-повар AGATE</p>
+            <p class="staff__text text">Максим - ученик известного шеф повара Ерика Крауа. Принимает участие в крупнейших воркшопах, работал в ресторанах Франции, Бельгии и Финляндии. У Максима всегда свежее авторское видение меню.</p>
+        </section>
+    </main>
+
+    <footer class="footer" id="contacts">
+        <h2 class="footer-title">Свяжитесь с нами</h2>
+        <ul class="contacts">
+            <li class="contacts__item"><a href="tel:+11234567890" aria-label="Позвонить по телефону">+1 123 456 78 90</a></li>
+            <li class="contacts__item"><a href="mailto:agate@yandex.com" aria-label="Написать имейл">agate@yandex.com</a></li>
+            <li class="contacts__item"><a href="https://www.google.com/maps/place/Obvodniy+channel+embankment,+75,+Sankt-Peterburg" aria-label="Посмотреть адрес на карте" target="_blank">Обводной канал, 75а. Санкт-Петербург</a></li>
+        </ul>
+        <p class="work-hours">Мы открыты ежедневно с 12:00 до 02:00</p>
+        <div class="social-media">
+            <a class="social-media__item" href="https://www.facebook.com" target="_blank" aria-label="Ссылка на страницу в Фейсбук"><i class="fa-brands fa-facebook-f"></i></a>
+            <a class="social-media__item" href="https://twitter.com" target="_blank" aria-label="Ссылка на страницу в Твиттер"><i class="fa-brands fa-twitter"></i></a>
+            <a class="social-media__item" href="https://www.instagram.com" target="_blank" aria-label="Ссылка на страницу в Инстаграм"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <a class="up" href="#" aria-label="Вернуться наверх страницы"><i class="fa-solid fa-chevron-up"></i></a>
+    </footer>
+</body>
+
+</html>

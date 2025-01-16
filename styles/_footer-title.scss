@@ -1,0 +1,19 @@
+.footer-title {
+    font-size: 6.5rem;
+    line-height: 8.1rem;
+    color: $contrast-color;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer-title {
+        font-size: 5rem;
+        line-height: 6.3rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-title {
+        font-size: 4rem;
+        line-height: 5rem;
+    }
+}

@@ -1,0 +1,21 @@
+.text {
+    font-size: $main-text-size;
+    font-weight: 300;
+    line-height: 4.1rem;
+}
+
+@media screen and (max-width: 1024px) {
+    $main-text-size: 22px;
+    .text {
+        font-size: $main-text-size;
+        line-height: 3rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    $main-text-size: 20px;
+    .text {
+        font-size: $main-text-size;
+        line-height: 2.7rem;
+    }
+}

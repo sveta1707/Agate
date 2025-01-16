@@ -1,0 +1,25 @@
+.presentation {
+    @include section-with-background;
+    &__text {
+        margin: 0 auto;
+        max-width: 941px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .presentation {
+        &__text {
+            max-width: 602px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .presentation {
+        padding-left: 15px;
+        padding-right: 15px;
+        &__text {
+            max-width: 541px;
+        }
+    }
+}

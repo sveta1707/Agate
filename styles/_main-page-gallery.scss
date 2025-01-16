@@ -1,0 +1,30 @@
+.main-page-gallery {
+    padding: $section-space $gallery-space 0;
+}
+
+@media screen and (max-width: 1440px) {
+    .main-page-gallery {
+        padding: $section-space 12px 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    $section-space: 80px;
+    .main-page-gallery {
+        padding: $section-space 15px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    $section-space: 70px;
+    .main-page-gallery {
+        padding: $section-space 24px 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    $section-space: 70px;
+    .main-page-gallery {
+        padding: $section-space 15px 0;
+    }
+}

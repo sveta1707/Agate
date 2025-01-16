@@ -1,0 +1,21 @@
+.section-title {
+    font-size: $h3-size;
+    font-weight: 600;
+    line-height: 5rem;
+}
+
+@media screen and (max-width: 1024px) {
+    $h3-size: 3.5rem;
+    .section-title {
+        font-size: $h3-size;
+        line-height: 4.4rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    $h3-size: 3rem;
+    .section-title {
+        font-size: $h3-size;
+        line-height: 3.8rem;
+    }
+}

@@ -1,0 +1,20 @@
+.work-hours {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 3.1rem;
+    color: #B1B1B1;
+}
+
+@media screen and (max-width: 1024px) {
+    .work-hours {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .work-hours {
+        font-size: 1.8rem;
+        line-height: 2.3rem;
+    }
+}

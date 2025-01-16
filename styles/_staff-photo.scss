@@ -1,0 +1,22 @@
+.staff-photo {
+    margin: 0 auto 30px;
+    max-width: 398px;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .staff-photo {
+        max-width: 282px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .staff-photo {
+        margin: 0 auto 20px;
+        max-width: 251px;
+    }
+}

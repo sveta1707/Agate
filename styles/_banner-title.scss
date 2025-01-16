@@ -1,0 +1,19 @@
+.banner-title {
+    font-size: 8.5rem;
+    line-height: 10.3rem;
+    letter-spacing: 0.06em;
+    color: $contrast-color;
+    max-width: 914px;
+    margin: 0 auto;
+    @media screen and (max-width: 1024px) {
+        font-size: 6rem;
+        line-height: 7.3rem;
+        letter-spacing: 0.07em;
+        max-width: 697px;
+    }
+    @media screen and (max-width: 768px) {
+        font-size: 5rem;
+        line-height: 5.8rem;
+        max-width: 329px;
+    }
+}

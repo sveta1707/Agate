@@ -1,0 +1,18 @@
+.footer {
+    padding: $section-space 0;
+    background-color: $footer-color;
+}
+
+@media screen and (max-width: 1024px) {
+    $section-space: 80px;
+    .footer {
+        padding: $section-space 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    $section-space: 70px;
+    .footer {
+        padding: $section-space 24px 65px;
+    }
+}

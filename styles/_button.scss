@@ -1,0 +1,39 @@
+.button {
+    display: block;
+    margin: 0 auto;
+    width: 312px;
+    height: $button-height;
+    border: 2px solid;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: $button-height;
+    transition: all .5s ease;
+}
+
+@media screen and (max-width: 1024px) {
+    $button-height: 48px;
+    .button {
+        width: 248px;
+        height: $button-height;
+        font-size: 1.7rem;
+        line-height: $button-height;
+    }
+}
+
+.button--white {
+    &:hover {
+        background-color: rgba(255, 166, 13, 1);
+        border: none;
+    }
+}
+
+.button--black {
+    border-color: #000;
+    color: #000;
+    &:hover {
+        background-color: rgba(255, 166, 13, 1);
+        color: #fff;
+        border: none;
+    }
+}

@@ -1,0 +1,26 @@
+.container {
+    @include flex-space-between;
+    max-width: 1176px;
+    margin: 0 auto 60px;
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        margin: 0 auto 45px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-left: 28px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .container {
+        align-items: center;
+        padding-right: 28px;
+    }
+}

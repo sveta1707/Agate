@@ -1,0 +1,15 @@
+.up {
+    @include circle-maker (70px, #FFAC1C);
+    @include flex-centering;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 420px) {
+    .up {
+        @include circle-maker (50px, #FFAC1C);
+        font-size: 2.7rem;
+    }
+}
